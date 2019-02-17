@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="KCL" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:timePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="AtlasConversationsRecyclerView">@style/AtlasConversationsRecyclerView</item>
+        <item name="AtlasMessagesRecyclerView">@style/AtlasMessagesRecyclerView</item>
+        <item name="AtlasMessageComposer">@style/AtlasMessageComposer</item>
+        <item name="AtlasAddressBar">@style/AtlasAddressBar</item>
+        <item name="AtlasTypingIndicator">@style/AtlasTypingIndicator</item>
+        <item name="android:actionMenuTextColor">@android:color/black</item>
+
+    </style>
+
+    <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/colorAccent</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="KCL.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="KCL.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="MessageTheme" parent="Theme.Atlas.Base.Light">
+        <!-- Apply default Atlas styles -->
+        <item name="AtlasConversationsRecyclerView">@style/AtlasConversationsRecyclerView</item>
+        <item name="AtlasMessagesRecyclerView">@style/AtlasMessagesRecyclerView</item>
+        <item name="AtlasMessageComposer">@style/AtlasMessageComposer</item>
+        <item name="AtlasAddressBar">@style/AtlasAddressBar</item>
+        <item name="AtlasTypingIndicator">@style/AtlasTypingIndicator</item>
+    </style>
+
+</resources>
